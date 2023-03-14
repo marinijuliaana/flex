@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div{
+    border: 1px dotted black;
+    width: 30px;
+    font-size: 20px;
+    text-align: center;
+    height: 80px;
+    flex-grow: 1;
+}
+#div3{
+    flex-grow: 2;
+}
+#div6{
+    flex-grow: 2;
+}

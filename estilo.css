@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    width: 100vw;
+    height: 80px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    font-weight: 600;
+    height: 80px;
+    padding: 25px;
+}
+
+    Nav > ul > li:hover {
+        background-color: brown;
+    }
+
+.hero {
+    width: 100vw;
+    height: 400px;
+    background-image: url(pizza.avif);
+    background-size: 1000px;
+    background-position: 50% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textodestaque {
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+}
+
+main {
+    width: 100vw;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main > h2 {
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.linha {
+    width: 80vw;
+    height: 5px;
+    background-color: red;
+    margin: 20px 0;
+}
+
+main > p {
+    font-size: 30px;
+}
+
+.cards{
+    margin: 30px;
+    width: calc(100vw - 60px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+}
+
+.cards img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards img:hover{
+    opacity: 0.7;
+}
+
+.cards > .card > .info {
+    background-color: darkgreen;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.cards > .card > .info > .pizza {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.cards > .card > .info > .preco {
+    background-color: wheat;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+main > a:link {
+    margin-top: 100px;
+    width: 200px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    transition: background-color 1s;
+}
+
+main > a:hover {
+    background-color: rgb(15, 202, 24);
+}
+
+footer{
+    width: 100vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+}
+
+footer > .endereco {
+    font-size: 20px;
+}
+
+.sociais ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sociais li{
+padding-top: 16px;
+}
+

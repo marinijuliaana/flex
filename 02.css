@@ -1,0 +1,34 @@
+*{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+p,h1,h2{
+    border: none;
+}
+
+.cabecalho{
+    width: 100vw;
+    height: 120px;
+}
+
+.principal{
+    width: 100vw;
+    height: calc(100vw - 240px);
+}
+
+.artigo{
+    width: calc(100vw - 220px);
+    height:  100%;
+    display: inline-block;
+}
+.extra{
+    width: 200px;
+    height: 90%;
+    display: inline-block;
+}
+.rodape{
+    width: 100vw;
+    height: 120px;
+}
